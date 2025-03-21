@@ -1,0 +1,16 @@
+#include <iostream>
+
+double multiplyNumbers(double num1, double num2) {
+    return num1 * num2;
+}
+
+int main() {
+    double num1, num2, product;
+    std::cout << "Enter the first number: ";
+    std::cin >> num1;
+    std::cout << "Enter the second number: ";
+    std::cin >> num2;
+    product = multiplyNumbers(num1, num2);
+    std::cout << "The product is: " << product << std::endl;
+    return 0;
+}
