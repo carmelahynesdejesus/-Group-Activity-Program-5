@@ -1,0 +1,16 @@
+#include <iostream>
+
+int modulus(int num1, int num2) { // Using integers for modulus
+    return num1 % num2;
+}
+
+int main() {
+    int num1, num2, remainder;
+    std::cout << "Enter the first number (dividend): ";
+    std::cin >> num1;
+    std::cout << "Enter the second number (divisor): ";
+    std::cin >> num2;
+    remainder = modulus(num1, num2);
+    std::cout << "The remainder is: " << remainder << std::endl;
+    return 0;
+}
