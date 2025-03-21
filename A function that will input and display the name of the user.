@@ -1,17 +1,17 @@
 #include <iostream>
 #include <string>
 
+// Function to get and display the user's name
 void getNameAndDisplay() {
     std::string name;
 
     std::cout << "Please enter your name: ";
-    std::getline(std::cin, name); 
+    std::getline(std::cin, name); // Use getline to handle spaces in names
 
     std::cout << "Hello, " << name << "!" << std::endl;
-    std::cout << "Your name has " << name.length() << " characters." << std::endl;
 }
 
 int main() {
-    getNameAndDisplay(); 
+    getNameAndDisplay(); // Call the function to execute
     return 0;
 }
