@@ -1,0 +1,16 @@
+#include <iostream>
+
+double divideNumbers(double num1, double num2) {
+    return num1 / num2;
+}
+
+int main() {
+    double num1, num2, quotient;
+    std::cout << "Enter the first number (dividend): ";
+    std::cin >> num1;
+    std::cout << "Enter the second number (divisor): ";
+    std::cin >> num2;
+    quotient = divideNumbers(num1, num2);
+    std::cout << "The quotient is: " << quotient << std::endl;
+    return 0;
+}
